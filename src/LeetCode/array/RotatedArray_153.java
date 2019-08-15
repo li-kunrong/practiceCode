@@ -14,7 +14,8 @@ public class RotatedArray_153 {
 
     public static void main(String[] args) {
         int[] nums = {10, 11, 12, 1, 2, 3, 4, 5, 6, 7};
-        new RotatedArray_153().findMin(nums);
+        System.out.println(     new RotatedArray_153().findMin(nums));
+
     }
 
     public int findMin(int[] nums) {
