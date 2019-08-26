@@ -9,8 +9,7 @@ import java.util.LinkedList;
  */
 public class Test_Link {
     public static void main(String[] args){
-        LinkedList<Integer> list = new LinkedList<>() ;
-        for (int i = 0; i < 5; i++)
-            list.add(i);
+        char c=040;
+        System.out.println(c>>1);
     }
 }
