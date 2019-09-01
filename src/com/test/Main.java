@@ -1,6 +1,5 @@
 package com.test;
 
-import decorator.NewChildren;
 
 public class Main {
 	private static final int COUNT_BITS = Integer.SIZE - 3;
@@ -25,15 +24,6 @@ public class Main {
 			}
 		}
 		System.out.println("terminted");
-	}
-    static void getTest() {
-		Children children = new Children();
-		children.sayHello();
-		Base base = new Children();
-		base.sayHello();
-
-		Base base1 = new NewChildren();
-		base1.sayHello();
 	}
 }
 

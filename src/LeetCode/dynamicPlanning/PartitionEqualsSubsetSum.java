@@ -6,6 +6,10 @@ package LeetCode.dynamicPlanning;
  * @date 2019/3/26 15:54
  */
 public class PartitionEqualsSubsetSum {
+    public static void main(String[] args){
+     int a[] =   {1, 5, 11, 5};
+     new PartitionEqualsSubsetSum().canPartition(a);
+    }
     /**
      * 划分数组为和相等的两部分
      * solution： 先判断sum的奇偶性
